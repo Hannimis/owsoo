@@ -1,0 +1,127 @@
+div.hero {
+    position: absolute;
+    z-index: -10;
+}
+
+
+/* MEDIA FOR ONLY INDEX.HTML */
+@media screen and (max-width: 640px){
+header.global div.herotext h2{
+        color: royalblue;
+        
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size: 1em;
+    }
+    div.hero img{
+        content: url("http://unsplash.it/800/1500");
+    }
+}
+@media screen and (min-width: 640){
+    
+}
+
+
+.hero img{
+    content: url(https://unsplash.it/2000/1000);
+    max-width: 100%;
+    min-height: 1000px;
+    width: 100%;
+    display: block;
+}
+.herotext {
+    text-align: center;
+}
+.herotext {
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
+header.global *{
+    background-color: rgba(0,0,0,0.0);
+}
+header.global h1{
+    font-family: sans-serif;
+    font-size: 4em;
+}
+header.global h2{
+    color: rgba(255,255,255,0.7);
+    font-size: 1.5em;
+}
+
+main.global {
+}
+@media screen and (max-width: 640px){
+    h2.type{
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        padding: 5px 0;
+        font-size: 1.6em;
+        color: white;
+        font-family: sans-serif;
+    }
+    span{
+        text-decoration: line-through;
+        opacity: 0.5;
+    }
+.games{
+    background-color: rgba(27, 40, 86, 0.9);
+}
+    .games div{
+        margin: 0 0 2em 0;
+    }
+.game{ 
+    position: relative;
+    max-height: 25vh;
+    overflow: hidden;
+    border-left: 1px solid #000;
+    }
+.hotgame img{
+    content: url(https://i0.wp.com/www.bemanistyle.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-22-at-4.58.37-PM.png?fit=1200%2C342);
+    max-width: 100%;
+}
+    .w50.game img{
+    }
+.game p:first-of-type{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    background-color: rgba(0,0,0,0.5);
+    padding: 0.2em;
+    }
+    .game p:last-of-type{
+    color: yellow;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgba(0,0,0,1);
+    padding: 5px;
+    }
+    .small .game p:first-of-type{
+    }
+    .small .game p:last-of-type{
+    bottom: 1.2em;
+    }
+    .game a:hover{
+        opacity: 0.9;
+    }
+    #tomc{content:url(http://cdn.edgecast.steamstatic.com/steam/apps/460930/header.jpg?t=1489425157);}
+    #rock{content:url(http://cdn.edgecast.steamstatic.com/steam/apps/252950/header.jpg?t=1487806299);}
+    #nier{content:url(http://cdn.edgecast.steamstatic.com/steam/apps/524220/header.jpg?t=1489441044);}
+    #nort{content:url(http://cdn.edgecast.steamstatic.com/steam/apps/466560/header.jpg?t=1488298608);}
+    #anti{content:url(http://cdn.edgecast.steamstatic.com/steam/apps/219890/header.jpg?t=1447356555);}
+    #towe{content:url(http://cdn.edgecast.steamstatic.com/steam/apps/251470/header.jpg?t=1455735772);}
+    #spro{content:url(http://cdn.edgecast.steamstatic.com/steam/apps/311720/header.jpg?t=1488658574);}
+    #outb{content:url(http://cdn.edgecast.steamstatic.com/steam/apps/444690/header.jpg?t=1489172716);}
+    
+    
+    
+    
+    
+    
+    
+}
