@@ -4,6 +4,9 @@ div.hero {
 }
 
 
+@media screen and (min-width: 640){
+    
+}
 /* MEDIA FOR ONLY INDEX.HTML */
 @media screen and (max-width: 640px){
 header.global div.herotext h2{
@@ -17,15 +20,12 @@ header.global div.herotext h2{
         content: url("http://unsplash.it/800/1500");
     }
 }
-@media screen and (min-width: 640){
-    
+
+.hero{
 }
-
-
 .hero img{
     content: url(https://unsplash.it/2000/1000);
     max-width: 100%;
-    min-height: 1000px;
     width: 100%;
     display: block;
 }
@@ -68,7 +68,7 @@ main.global {
     background-color: rgba(27, 40, 86, 0.9);
 }
     .games div{
-        margin: 0 0 2em 0;
+        margin: 0 0 1em 0;
     }
 .game{ 
     position: relative;
@@ -101,7 +101,8 @@ main.global {
     background-color: rgba(0,0,0,1);
     padding: 5px;
     }
-    .small .game p:first-of-type{
+    .small .game img{
+        max-height: 16vh;
     }
     .small .game p:last-of-type{
     bottom: 1.2em;
@@ -117,11 +118,14 @@ main.global {
     #towe{content:url(http://cdn.edgecast.steamstatic.com/steam/apps/251470/header.jpg?t=1455735772);}
     #spro{content:url(http://cdn.edgecast.steamstatic.com/steam/apps/311720/header.jpg?t=1488658574);}
     #outb{content:url(http://cdn.edgecast.steamstatic.com/steam/apps/444690/header.jpg?t=1489172716);}
-    
-    
-    
-    
-    
-    
+    footer.global .innerwrapper{
+        width: 100%;
+        max-width: 100%;
+    }
+    footer.global p{
+        text-align: center;
+        padding: 1em;
+        margin-top: -0.8em;
+    }
     
 }
