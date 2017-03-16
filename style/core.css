@@ -9,7 +9,7 @@
 .main{
     max-width: 80%;
 }
-
+nav{background-color: white;}
 div.wrapper > nav.global {
     display: block;
 }

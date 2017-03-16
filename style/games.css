@@ -1,0 +1,205 @@
+@media screen and (min-width: 640px){
+    
+}
+@media screen and (max-width: 790px){
+    .containdesu{
+        min-width: 30%;
+    }
+}
+@media screen and (max-width: 640px){
+    div.bigcontainer p{
+        font-size: 1em;
+    }
+}
+body{
+    background-image: url(https://unsplash.it/2500/2000/);
+}
+.manygames{
+    background-color: rgba(255,255,255,0.5);
+}
+.biggames{
+    margin: 0 auto;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.bigcontainer{
+    padding: 5px;
+    max-width: 50%;
+    margin: 0 auto;
+}
+.bigcontainer li{
+    margin: 0 auto;
+}
+.bigcontainer img{
+    display: block;
+    max-width: 100%;
+}
+.bigcontainer li{
+    background-color: rgba(0,0,0,0.5);
+}
+.bigcontainer a{
+    text-decoration: none;
+}
+.bigcontainer p{
+    color: white;
+    font-size: 2em;
+}
+.bigcontainer div{
+    display: flex;
+    justify-content: space-between;
+}
+.gamelist{
+    margin: 0 auto;
+    max-width: 90%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+.gamelist li div{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    text-decoration: none;
+}
+.containdesu{
+    margin: 7px 0;
+}
+.gamelist li{
+    position: relative;
+    display: inline-block;
+}
+.gamelist li a{
+    display: block;
+    text-decoration: none;
+}
+.gamelist li a:hover{
+    background-color: #eee;
+}
+.gamelist li img{
+    margin: 0 auto;
+    display: block;
+}
+.gamelist li p{
+    color: white;
+    max-width: 50%;
+}
+.gamelist li p:last-of-type{
+    text-align: right;
+    margin: auto 0;
+    color: yellow;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 2em;
+    padding: 1em;
+    background-color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.biggames .bigcontainer:nth-of-type(1) img{
+    content: url(http://cdn.edgecast.steamstatic.com/steam/apps/524220/header.jpg?t=1489492282);
+}
+.biggames .bigcontainer:nth-of-type(2) img{
+    content: url(http://cdn.edgecast.steamstatic.com/steam/apps/518790/header.jpg?t=1489397739);
+}
+.gamelist .containdesu:nth-of-type(1) img{
+    content: url(http://cdn.edgecast.steamstatic.com/steam/apps/603890/capsule_184x69.jpg?t=1489649463);
+}
+.gamelist .containdesu:nth-of-type(2) img{
+    content: url(http://cdn.edgecast.steamstatic.com/steam/apps/588630/capsule_184x69.jpg?t=1489648441);
+}
+.gamelist .containdesu:nth-of-type(3) img{
+    content: url(http://cdn.edgecast.steamstatic.com/steam/apps/587860/capsule_184x69.jpg?t=1489647863);
+}
+.gamelist .containdesu:nth-of-type(4) img{
+    content: url(http://cdn.edgecast.steamstatic.com/steam/apps/581230/capsule_184x69.jpg?t=1489638908);
+}
+.gamelist .containdesu:nth-of-type(5) img{
+    content: url(http://cdn.edgecast.steamstatic.com/steam/apps/550870/capsule_184x69.jpg?t=1489637790);
+}
+.gamelist .containdesu:nth-of-type(6)  img{
+    content: url(http://cdn.edgecast.steamstatic.com/steam/apps/536560/capsule_184x69.jpg?t=1489628566);
+}
+.gamelist .containdesu:nth-of-type(7)  img{
+    content: url(http://cdn.edgecast.steamstatic.com/steam/apps/564750/capsule_184x69.jpg?t=1489622066);
+}
+.gamelist .containdesu:nth-of-type(8)  img{
+    content: url(http://cdn.edgecast.steamstatic.com/steam/apps/509560/capsule_184x69.jpg?t=1489621258);
+}
+.gamelist .containdesu:nth-of-type(9)  img{
+    content: url(http://cdn.edgecast.steamstatic.com/steam/apps/562640/capsule_184x69.jpg?t=1489618098);
+}
+.gamelist .containdesu:nth-of-type(10) img{
+    content: url(http://cdn.edgecast.steamstatic.com/steam/apps/513960/capsule_184x69.jpg?t=1489620101);
+}
+.gamelist .containdesu:nth-of-type(11) img{
+    content: url(http://cdn.edgecast.steamstatic.com/steam/apps/568470/capsule_184x69.jpg?t=1489595959);
+}
+.gamelist .containdesu:nth-of-type(12) img{
+    content: url(http://cdn.edgecast.steamstatic.com/steam/apps/595060/capsule_184x69.jpg?t=1489602884);
+}
+.gamelist .containdesu:nth-of-type(13) img{
+    content: url(http://cdn.edgecast.steamstatic.com/steam/apps/578210/capsule_184x69.jpg?t=1489602384);
+}
+.gamelist .containdesu:nth-of-type(14) img{
+    content: url(http://cdn.edgecast.steamstatic.com/steam/apps/221380/capsule_184x69.jpg?t=1486591372);
+}
+.gamelist .containdesu:nth-of-type(15) img{
+    content: url(http://cdn.edgecast.steamstatic.com/steam/apps/377160/capsule_184x69.jpg?t=1486403180);
+}
+.gamelist .containdesu:nth-of-type(16) img{
+    content: url(http://cdn.edgecast.steamstatic.com/steam/apps/502280/capsule_184x69.jpg?t=1489628077);
+}
+.gamelist .containdesu:nth-of-type(17) img{
+    content: url(http://cdn.edgecast.steamstatic.com/steam/apps/730/capsule_184x69.jpg?t=1488320393);
+}
+.gamelist .containdesu:nth-of-type(18) img{
+    content: url(http://cdn.edgecast.steamstatic.com/steam/apps/460930/capsule_184x69.jpg?t=1489425157);
+}
+.gamelist .containdesu:nth-of-type(19) img{
+    content: url(http://cdn.edgecast.steamstatic.com/steam/apps/252950/capsule_184x69.jpg?t=1487806299);
+}
+.gamelist .containdesu:nth-of-type(20) img{
+    content: url(http://cdn.edgecast.steamstatic.com/steam/apps/359550/capsule_184x69.jpg?t=1487956945);
+}
