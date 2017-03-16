@@ -1,0 +1,43 @@
+body{
+    background-image: url(https://unsplash.it/2000/2000);
+}
+.innerwrapper{
+    background-color: rgba(255,255,255,0.9);
+    max-width: 90%;
+}
+.problemcase p {
+    padding: 0.2em;
+}
+div.sub *{
+    display: none;
+}
+textarea{
+    display: block;
+    width: 15em;
+    height: 5em;
+}
+select{
+    margin: 2em 0;
+}
+
+
+div.case.payment{
+    display: flex;
+    justify-content: center;
+}
+div.case.payment * {
+    display: block;
+}
+.payment *, .payment * *{
+    display: initial;
+}
+.other-problemspecs{
+    display: none;
+}
+.case{
+    display: flex;
+}
+.sub-case{
+    margin: auto 0;
+    display: block;
+}

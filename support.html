@@ -30,8 +30,91 @@
         <div class="wrapper">
         <main class="global">
             <div class="innerwrapper">
+                <div class="problemcase">
+                <p>Problem category :</p>
+                    
+                <select id="main-selector" onchange="problemDesu();">
+                    <option value="payment">Payment</option>
+                    <option value="login">Login</option>
+                    <option value="keyid">Game key</option>
+                    <option value="other">Other (please specify)</option>
+                </select>
+                    
+                    <div class="sub" id="sub">
+                    <!-- payment -->
+                        
+                    <div class="payment case" id="case-payment">
+                        
+                    <select id="payment-spec" class="sub-case">
+                        <option>Card not registered / detected</option>
+                        <option>Payment didn't go through</option>
+                        <option>Wrong value deducted</option>
+                        <option>Other</option>
+                    </select>
+                        
+                    <textarea></textarea>
+                        
+                    <button>Submit</button>
+                        
+                    </div>
+                        
+                        
+                    <!-- login -->
+                    <div class="login case" id="case-login">
+                        
+                    <select id="login-spec" class="sub-case">
+                        <option>Request new password</option>
+                        <option>Change email</option>
+                        <option>Can't remember username</option>
+                        <option>Other</option>
+                    </select>
+                        
+                    <textarea></textarea>
+                        
+                    <button>Submit</button>
+                        
+                    </div>
+                        
+                    <!-- keyid -->
+                    
+                     <div class="keyid case" id="case-keyid">
+                        
+                    <select id="keyid-spec" class="sub-case">
+                        <option>Useless key</option>
+                        <option>Key already used</option>
+                        <option>Wrong product</option>
+                        <option>Other</option>
+                    </select>
+                        
+                    <textarea></textarea>
+                        
+                    <button>Submit</button>
+                        
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <!-- other -->
+                <div class="other-problemspecs case" id="case-other">
+                <textarea>
+                
+                
+                </textarea>
+                    
+                
+                    </div>
+                </div>
             </div>
-        </main>
+                
+        </div>
+    </main>
         
         <footer class="global">
             <div class="innerwrapper">

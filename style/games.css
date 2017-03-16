@@ -11,9 +11,12 @@
         font-size: 1em;
     }
 }
+
 body{
     background-image: url(https://unsplash.it/2500/2000/);
+    overflow: hidden;
 }
+
 .manygames{
     background-color: rgba(255,255,255,0.5);
 }
@@ -96,8 +99,6 @@ body{
 }
 
 footer{
-    position: absolute;
-    bottom: 0;
     width: 100%;
     font-size: 2em;
     padding: 1em;
