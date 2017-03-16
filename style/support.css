@@ -8,7 +8,7 @@ body{
 .problemcase p {
     padding: 0.2em;
 }
-div.sub *{
+div.sub > div{
     display: none;
 }
 textarea{
@@ -21,19 +21,11 @@ select{
 }
 
 
-div.case.payment{
+div.case{
     display: flex;
     justify-content: center;
 }
-div.case.payment * {
-    display: block;
-}
-.payment *, .payment * *{
-    display: initial;
-}
-.other-problemspecs{
-    display: none;
-}
+
 .case{
     display: flex;
 }

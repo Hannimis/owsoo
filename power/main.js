@@ -1,36 +1,47 @@
+window.onload = function(){
+    elems[0].style.display = 'flex';
+}
+
 var elems = document.getElementsByClassName('case');
-function problemDesu(){
+
+function problemDesu(start){
     var cval = document.getElementById('main-selector').value;
+
+        
     switch(cval){
         // elems[0]
         case 'payment':
-            elems[0].style.display = 'block';
-            var childnodes = elems[0].childNodes;
-            for(var i = 0; i<childnodes.length; i++){
-                childnodes[i].style.display = 'initial';
-            }
+            clearDisplay();
+            elems[0].style.display = 'flex';
+           
         break;
 
         // elems[1]
         case 'login':
-            elems[1].style.display = 'block';
-            var childnodes = elems[1].childNodes;
-            for(var i = 0; i<childnodes.length; i++){
-                childnodes[i].style.display = 'initial';
-            }
+            clearDisplay();
+            elems[1].style.display = 'flex';
+          
         break;
 
         // elems[2]
         case 'keyid':
-
-            elems[2].style.display = 'block';
+            clearDisplay();
+            elems[2].style.display = 'flex';
+            
         break;
 
         // elems[3]
         case 'other':
-
-            elems[3].style.display = 'block';
+            clearDisplay();
+            elems[3].style.display = 'flex';
+            
         break;
     }
     
+}
+
+function clearDisplay(){
+    for(var i = 0; i<elems.length; i++){
+        elems[i].style.display = 'none';
+    }
 }
