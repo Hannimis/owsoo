@@ -1,0 +1,41 @@
+@media screen and (max-width: 640px){
+    .innerwrapper p{
+        font-size: 2em;
+        margin: 3em 0;
+    }
+}
+@media screen and (max-width: 1000px){
+    .innerwrapper p{
+        font-size: 1.6em;
+        background-color: white;
+        padding: 1em 0;
+        margin: 1em 0;
+    }
+}
+@media screen and (min-width: 1000px){
+    .innerwrapper p:first-of-type{
+        font-size: 3em;
+        background-color: white;
+        margin-top: 3em;
+    }
+    .innerwrapper p:last-of-type{
+        font-size: 2em;
+        background-color: white;
+        margin: 1em;
+    }
+}
+#background-video{
+    min-height: 100%;
+    position: absolute;
+    z-index: -10;
+}
+nav{
+    background-color: white;
+}
+main {
+    background-color: rgba(255,255,255,0.5);
+}
+
+main .innerwrapper p:first-of-type{
+    font-size: 2em;
+}

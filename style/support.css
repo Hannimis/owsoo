@@ -1,3 +1,9 @@
+@media screen and (max-width: 1000px){
+    select{
+        padding: 1em 0;
+    }
+}
+
 body{
     background-image: url(https://unsplash.it/2000/2000);
 }
@@ -15,8 +21,10 @@ textarea{
     display: block;
     width: 15em;
     height: 5em;
+    margin: 0 1em;
 }
 select{
+    padding: 0.5em 0;
     margin: 2em 0;
 }
 

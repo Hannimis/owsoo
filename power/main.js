@@ -1,13 +1,18 @@
 window.onload = function(){
-    elems[0].style.display = 'flex';
-}
+    if(window.location.pathname == '/support.html'){
+            elems[0].style.display = 'flex';
+        }else{
+            console.log("You're currently in " + window.location);
+        }
+    }
+
 
 var elems = document.getElementsByClassName('case');
 
 function problemDesu(start){
     var cval = document.getElementById('main-selector').value;
 
-        
+// SpaghettiScript z
     switch(cval){
         // elems[0]
         case 'payment':
